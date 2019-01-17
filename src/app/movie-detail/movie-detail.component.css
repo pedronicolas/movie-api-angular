@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+.foto{
+    border-radius: 30px;
+    padding: 2vh;
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+h5 { 
+    font-weight: bold;
+    
+
+}
+ 

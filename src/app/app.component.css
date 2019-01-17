@@ -1,0 +1,29 @@
+.movies {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    
+  }
+  
+  .movie {
+    width: 300px;
+    margin: 0.5em;
+  }
+  
+  .poster {
+    max-width: 300px;
+  }
+  
+  h1 {
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }

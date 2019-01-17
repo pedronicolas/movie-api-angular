@@ -1,0 +1,14 @@
+<h1 class="title">{{ movieData.title.toUpperCase() || movieData.original_title.toUpperCase() }}</h1>
+<div class="flexContainer">
+  <img class="foto" src="{{imgDomain + movieData.poster_path}}" alt="">
+ <div class="cuerpo">
+ <h5>Description </h5>
+    <p>{{movieData.overview}}</p>
+ <h5>Release Date </h5>
+    <div>  {{movieData.release_date}}</div>
+ <h5>HomePage</h5>
+    <a target="_blank" href="{{movieData.homepage}}">{{movieData.homepage}}</a>
+ <h5> Vote Average</h5>
+    <div> {{movieData.vote_average}} 💙</div>
+</div>
+</div>

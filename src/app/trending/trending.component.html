@@ -1,0 +1,10 @@
+<section  *ngIf="data">
+  <h1>{{ title.toUpperCase() }}</h1>
+  <div class="movies">
+    <a routerLink= "/movie/{{movie.id}}" class="movie" *ngFor="let movie of data">
+      <h3>{{movie.title}}</h3>
+      <img class="poster" src="{{imgDomain + movie.poster_path}}" alt="">
+    </a>
+  </div>
+  </section>
+  
